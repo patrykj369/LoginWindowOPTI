@@ -1,0 +1,114 @@
+
+html, body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: 1.2fr 2fr;
+}
+
+.leftSide{
+  grid-column: 1;
+  height: 100vh;
+  font-family: sans-serif;
+  margin: 0 auto 0 auto;
+}
+
+.optiText{
+  margin-top: 16vh;
+  margin-left: -15px;
+}
+
+.logText{
+  font-weight: 800;
+  font-size: 1.3rem;
+  margin-top: 8vh;
+  margin-bottom: 6vh;
+}
+
+.rightSide{
+  grid-column: 2;
+  height: 100vh;
+  background-color: green;
+  font-family: sans-serif;
+  color: #fff;
+  background: url("https://img5.goodfon.com/wallpaper/nbig/5/11/laptop-desk-coffee-music-cookie.jpg") center;
+  background-size: cover;
+  
+  h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    padding: 80px;
+    margin-top: 65vh;
+  }
+}
+
+.formik{
+  display: flex;
+  flex-direction: column;
+  
+  input[type="text"]{
+    height: 2rem;
+    width: 22rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid #E4E2E1;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  input[type="password"]{
+    height: 2rem;
+    width: 22rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-bottom: 1px solid #E4E2E1;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+  
+  input[type="radio"]{
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+  
+  input[type="submit"]{
+    height: 3.5rem;
+    width: 22rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    background-color: #ef4a1f;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  label{
+    height: 1.5rem;
+  }
+  
+  .zapam{
+    font-weight: 600;
+    line-height: 1.5rem;
+    display: flex;
+    
+    label{
+      margin-top: 4px;
+      margin-left: 6px;
+      font-size: .9rem;
+    }
+  }
+  
+  img{
+    width: 20px;
+    margin-left: -25px;
+    margin-top: 8px;
+    position: absolute;
+  }
+}
